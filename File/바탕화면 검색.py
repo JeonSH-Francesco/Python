@@ -14,3 +14,17 @@ for (path,dirs,files) in os.walk(user_input):
     print("="*50)           
     
 #os.path.join: 경로(패스)명 조작에 관한 처리를 모아둔 모듈로써 구현되어 있는 함수의 하나이다. 인수에 전달된 2개의 문자열을 결합하여, 1개의 경로를 만든다. 
+
+==============================================================================================================
+import os
+
+user_input=input("검색할 디렉터리 명을 입력하세요 : ")
+files = os.listdir(user_input)
+
+for (path,dirs,files) in os.walk(user_input):
+    for file in files:
+        print("path : ",path,"\n")
+        print("dirs : ",dirs,"\n")
+        print("files : ",files,"\n")
+        print("="*50)           
+    
