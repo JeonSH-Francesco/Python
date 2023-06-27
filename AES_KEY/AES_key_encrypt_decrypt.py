@@ -3,7 +3,7 @@ import base64
 import hashlib
 from Crypto.Cipher import AES # 대칭키를 사용하기 위한 모듈 임포트
 from Crypto.Cipher import PKCS1_OAEP 
-
+#->pip install pycryptodome 
 
 BS = 16 # blocksize를 16바이트로 고정시켜야 함(AES의 특징)
 
