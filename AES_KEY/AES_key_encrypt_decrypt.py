@@ -1,9 +1,15 @@
-#메시지 AES 복호화
+#메시지 AES 암,복호화
+#->pip install pycryptodome 
+import crypto
+import sys
+sys.modules['Crypto'] = crypto
 import base64
 import hashlib
-from Crypto.Cipher import AES # 대칭키를 사용하기 위한 모듈 임포트
-from Crypto.Cipher import PKCS1_OAEP 
-#->pip install pycryptodome 
+from Crypto.Cipher import AES 
+#from Crypto.Cipher import PKCS1_OAEP 
+
+
+
 
 BS = 16 # blocksize를 16바이트로 고정시켜야 함(AES의 특징)
 
@@ -17,7 +23,7 @@ unpad = (lambda s: s[:-ord(s[len(s)-1:])])
 class AESCipher(object):
     def __init__(self, key):
         self.key = hashlib.sha256(key.encode()).digest() # 키가 쉽게 노출되는 것을 막기 위해 키를 어렵게 처리하는 과정으로 보통 해시를 적용
-        print("AES Key(Key문장 암호화) : ", self.key)
+        print("AES Key: ", self.key)
 
     def encrypt(self, message): # 암호화 함수
         message = message.encode() # 문자열 인코딩
@@ -37,25 +43,35 @@ class AESCipher(object):
 
 print("-"*100, "\n")
 key = "AES_Key"
-msg = "원본 메시지 입니다."
+msg = "This is plaintext."
 print("AES KEY: ", key)
-print("원본 메시지: ", msg)
+print("Plain Text: ", msg)
 
 aes = AESCipher(key) # 1. 대칭키 암복호화 처리를 위해 AESCipher클래스의 객체(인스턴스)를 생성(해시(256bit)가 적용된 키값을 얻어옴)
 # print(aes)
 
 encrypt = aes.encrypt(msg) # 2.입력한 메시지를 AES 대칭키 암호화 방식으로 암호화
 print("_"*100, "\n")
-print("메시지 원본을 aes키로 암호화한 결과: ", encrypt)
+print("Encrypted Message : ", encrypt)
 print("_"*100, "\n")
 
 
 decrypt = aes.decrypt(encrypt) # 3.암호화된 메시지를 AES 대칭키 암호화 방식으로 복호화
-print("암호화된 메시지를 복호화한 결과: ", decrypt) 
+print("Decrypted Message:" , decrypt) 
 print("_"*100, "\n")
 
 
 
+
+'''
+class 클래스 이름 :
+    def __init__(self, 매개변수1, 매개변수2,...):
+        self.속성 = 값
+        self.속성1= 매개변수1
+
+==>self는 인스턴스 자기 자신을 의미합니다.
+
+'''
 
 '''
 class 클래스 이름 :
