@@ -13,4 +13,5 @@ def convert_date_string_to_ts(date_string):
     return ts
 
 
-print(convert_date_string_to_ts("2023/07/06"))
+#print(convert_date_string_to_ts("2023/07/06"))
+print(convert_date_string_to_ts("YYYY/MM/DD"))
