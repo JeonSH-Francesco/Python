@@ -53,26 +53,61 @@ class IP:
         self.version_header = bin(int(struct.unpack("<B", data[:1])[0])).replace("0b", "")
         self.verion = "0" * (8 - len(self.version_header)) + self.version_header[0:3]
         self.headr_length = "0" * (8 - len(self.version_header)) + self.version_header[4:8]
-        if int(self.headr_length, 2) * 4 != 20:
+        #if int(self.headr_length, 2) * 4 != 20:
             
-            print(int(self.verion, 2), int(self.headr_length, 2) * 4)
-            input()         
+            #print(int(self.verion, 2), int(self.headr_length, 2) * 4)
+            #input()         
 
-        
         self.sip = socket.inet_ntop(socket.AF_INET, data[12:16])
         self.dip = socket.inet_ntop(socket.AF_INET, data[16:20])
         self.ttl = struct.unpack("<B", data[8:9])[0]
         self.proto_type = struct.unpack("<B", data[9:10])[0]
         print("Source IP:", self.sip, "Dstination IP:",self.dip, "TTL:", self.ttl)
+        #land attack인 경우
         #if self.sip==self.dip:
-            #print("Land Attack") 
+            #print("Land Attack")
+        #print("\n")
         print(self.sip, gi.record_by_addr(self.sip), self.dip, gi.record_by_addr(self.dip), self.ttl)
+        print("\n")
+        #ip spoofing인 경우
+        # if not (self.sip.startswith("192.168.0.") or self.dip.startswith("192.168.0")):
+        #     input()
         if self.proto_type != 17:
             #input()#UDP가 아닌 경우
             pass
+        if self.proto_type ==6:
+            tcp_data = TCP(data[int(self.headr_length, 2) * 4:])
             
-    
-
+            
+class TCP:
+    def __init__(self,data):
+        self.sport=struct.unpack(">H",data[0:2])[0]
+        self.dport=struct.unpack(">H",data[2:4])[0]
+        self.seq_number=struct.unpack("<L",data[4:8])[0]
+        self.ack_number=struct.unpack("<L",data[8:12])[0]
+        self.header_length = "0" + bin(int(struct.unpack("<B", data[12:13])[0])).replace("0b", "")[0:3]
+        self.flags = bin(int(struct.unpack("<B", data[13:14])[0])).replace("0b", "")
+        self.flags = "0" * (6 - len(self.flags)) + self.flags
+        if self.flags[0] == "1":
+            print("urgent")
+        if self.flags[1] == "1":
+            print("ack")
+        if self.flags[2] == "1":
+            print("push")
+        if self.flags[3] == "1":
+            print("rst")
+        if self.flags[4] == "1":
+            print("syn")
+        if self.flags[5] == "1":
+            print("fin")
+        
+        print("Source Port : ",self.sport,"Dstination Port:",self.dport)
+        print("Seq_number:",self.seq_number, "Ack_number:",self.ack_number)
+        print("flags:",self.flags)
+        print("\n")
+        
+        if self.flags[4] == "1":
+            input()
 # class IP:
     
 #     def __init__(self, data):
@@ -92,7 +127,7 @@ packet_index = 0
 
 while True:
     packet_index += 1
-    print(packet_index, "offset %x" % offset)
+    print("Packet Index:",packet_index, "/ Offset :%x" % offset)
     packet_header = PacketHeader(data[offset : offset + 16])
     offset += 16
     packet_data = data[offset : offset + packet_header.incl_len]
