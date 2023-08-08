@@ -48,6 +48,14 @@ class Ethernet:
         print(self.smac, mac_dict[self.smac], self.dmac, mac_dict[self.dmac])
         '''
 
+# class IP:
+    
+#     def __init__(self, data):
+#         self.sip = socket.inet_ntoa(data[12:16])
+#         self.dip = socket.inet_ntoa(data[16:20])
+#         self.ttl = struct.unpack("<B", data[8:9])[0]
+#         print("source IP : ", self.sip, "Dstination IP : ",self.dip, "TTL : ", self.ttl)
+
 class IP:
     def __init__(self, data):
         self.version_header = bin(int(struct.unpack("<B", data[:1])[0])).replace("0b", "")
@@ -86,6 +94,8 @@ class TCP:
         self.seq_number=struct.unpack("<L",data[4:8])[0]
         self.ack_number=struct.unpack("<L",data[8:12])[0]
         self.header_length = "0" + bin(int(struct.unpack("<B", data[12:13])[0])).replace("0b", "")[0:3]
+        #self.header_length = "0" + bin(int(struct.unpack("<B", data[12:13])[0])).replace("0b", "")[0:3]
+        self.header_length = int(self.header_length, 2) * 8
         self.flags = bin(int(struct.unpack("<B", data[13:14])[0])).replace("0b", "")
         self.flags = "0" * (6 - len(self.flags)) + self.flags
         if self.flags[0] == "1":
@@ -107,17 +117,28 @@ class TCP:
         print("-----------------------------------")
         print("\n")
         
-        if self.flags[4] == "1":
-            input()
-# class IP:
-    
-#     def __init__(self, data):
-#         self.sip = socket.inet_ntoa(data[12:16])
-#         self.dip = socket.inet_ntoa(data[16:20])
-#         self.ttl = struct.unpack("<B", data[8:9])[0]
-#         print("source IP : ", self.sip, "Dstination IP : ",self.dip, "TTL : ", self.ttl)
-
-
+        #if self.flags[4] == "1":
+        #   input()
+        tcp_payload = data[self.header_length:]
+        if len(tcp_payload) > 0 and (self.sport == 80 or self.dport == 80):
+            print(tcp_payload, len(tcp_payload))
+            try:
+                tcp_payload = tcp_payload.decode("utf-8")
+                if tcp_payload.startswith("GET ") or tcp_payload.startswith("POST "):
+                    if tcp_payload.endswith("\r\n\r\n"):
+                        print(tcp_payload) 
+                        #input()
+            except:
+                pass
+        #TCP-Follow-Stream
+        # tcp_payload = data[self.header_length:]
+        # if len(tcp_payload) > 0 and (self.sport == 80 or self.dport == 80):
+        #     if self.sport == 44542 or self.dport == 44542:
+        #         fd = open("a.txt", "a")
+        #         fd.write(tcp_payload.decode("utf-8"))
+        #         fd.close()
+        
+        
 fd = open("2.pcap", "rb")
 data = fd.read()
 fd.close()
