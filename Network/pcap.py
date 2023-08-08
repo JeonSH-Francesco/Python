@@ -66,9 +66,9 @@ class IP:
         #land attack인 경우
         #if self.sip==self.dip:
             #print("Land Attack")
-        #print("\n")
+        
         print(self.sip, gi.record_by_addr(self.sip), self.dip, gi.record_by_addr(self.dip), self.ttl)
-        print("\n")
+        #print("\n")
         #ip spoofing인 경우
         # if not (self.sip.startswith("192.168.0.") or self.dip.startswith("192.168.0")):
         #     input()
@@ -104,6 +104,7 @@ class TCP:
         print("Source Port : ",self.sport,"Dstination Port:",self.dport)
         print("Seq_number:",self.seq_number, "Ack_number:",self.ack_number)
         print("flags:",self.flags)
+        print("-----------------------------------")
         print("\n")
         
         if self.flags[4] == "1":
@@ -127,6 +128,7 @@ packet_index = 0
 
 while True:
     packet_index += 1
+    print("-----------------------------------")
     print("Packet Index:",packet_index, "/ Offset :%x" % offset)
     packet_header = PacketHeader(data[offset : offset + 16])
     offset += 16
