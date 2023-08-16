@@ -25,7 +25,7 @@ class Ethernet:
         self.dmac = data[offset : offset + 6].hex()
         offset += 6
         self.smac = data[offset : offset + 6].hex()
-        print("Source mac:", self.smac, "Destinatino Mac:",self.dmac)
+        print("Source mac:", self.smac, "Destination Mac:",self.dmac)
         offset += 6
         self.ethernet_type = struct.unpack("<H", data[offset : offset + 2])[0]
         offset += 2
