@@ -57,3 +57,9 @@ for ref in ref_list:
     browser.switch_to.window(browser.window_handles[0])
 
 browser.quit()
+
+'''
+
+pip install python-docx reportlab
+
+'''
