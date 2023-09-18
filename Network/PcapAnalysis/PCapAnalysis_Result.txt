@@ -1,0 +1,643 @@
+-----------------------------------
+Packet Index: 1 / Offset :18
+Time stamp :  2023-08-03 16:29:55.279691 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 2 / Offset :6d
+Time stamp :  2023-08-03 16:29:55.281185 328 328
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 3 / Offset :1c5
+Time stamp :  2023-08-03 16:29:55.299625 320 320
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 4 / Offset :315
+Time stamp :  2023-08-03 16:29:55.309930 69 69
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 5 / Offset :36a
+Time stamp :  2023-08-03 16:29:55.319694 356 356
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 6 / Offset :4de
+Time stamp :  2023-08-03 16:29:55.319695 312 312
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 7 / Offset :626
+Time stamp :  2023-08-03 16:29:55.333113 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 8 / Offset :67b
+Time stamp :  2023-08-03 16:29:55.333114 92 92
+Source mac: f0a654296c9f Destination Mac: ffffffffffff
+Source IP: 192.168.0.38 Dstination IP: 192.168.0.255 TTL: 128
+192.168.0.38 None 192.168.0.255 None 128
+-----------------------------------
+Packet Index: 9 / Offset :6e7
+Time stamp :  2023-08-03 16:29:55.336982 782 782
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 10 / Offset :a05
+Time stamp :  2023-08-03 16:29:55.336982 781 781
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 11 / Offset :d22
+Time stamp :  2023-08-03 16:29:55.336982 306 306
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 12 / Offset :e64
+Time stamp :  2023-08-03 16:29:55.360320 302 302
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 13 / Offset :fa2
+Time stamp :  2023-08-03 16:29:55.380721 304 304
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 14 / Offset :10e2
+Time stamp :  2023-08-03 16:29:55.383621 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 15 / Offset :1137
+Time stamp :  2023-08-03 16:29:55.398977 775 775
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 16 / Offset :144e
+Time stamp :  2023-08-03 16:29:55.398977 775 775
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 17 / Offset :1765
+Time stamp :  2023-08-03 16:29:55.398977 293 293
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 18 / Offset :189a
+Time stamp :  2023-08-03 16:29:55.407656 182 182
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 19 / Offset :1960
+Time stamp :  2023-08-03 16:29:55.416495 275 275
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 20 / Offset :1a83
+Time stamp :  2023-08-03 16:29:55.423614 1093 1093
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 21 / Offset :1ed8
+Time stamp :  2023-08-03 16:29:55.439068 1093 1093
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 22 / Offset :232d
+Time stamp :  2023-08-03 16:29:55.439068 1093 1093
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 23 / Offset :2782
+Time stamp :  2023-08-03 16:29:55.439068 252 252
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 24 / Offset :288e
+Time stamp :  2023-08-03 16:29:55.457062 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 25 / Offset :28e3
+Time stamp :  2023-08-03 16:29:55.459265 356 356
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 26 / Offset :2a57
+Time stamp :  2023-08-03 16:29:55.459265 223 223
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 27 / Offset :2b46
+Time stamp :  2023-08-03 16:29:55.478479 143 143
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 28 / Offset :2be5
+Time stamp :  2023-08-03 16:29:55.497891 135 135
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 29 / Offset :2c7c
+Time stamp :  2023-08-03 16:29:55.499942 356 356
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 30 / Offset :2df0
+Time stamp :  2023-08-03 16:29:55.509691 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 31 / Offset :2e45
+Time stamp :  2023-08-03 16:29:55.518691 135 135
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 32 / Offset :2edc
+Time stamp :  2023-08-03 16:29:55.539920 136 136
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 33 / Offset :2f74
+Time stamp :  2023-08-03 16:29:55.549909 69 69
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 34 / Offset :2fc9
+Time stamp :  2023-08-03 16:29:55.551132 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 35 / Offset :301e
+Time stamp :  2023-08-03 16:29:55.559547 356 356
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 36 / Offset :3192
+Time stamp :  2023-08-03 16:29:55.559547 133 133
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 37 / Offset :3227
+Time stamp :  2023-08-03 16:29:55.577225 134 134
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 38 / Offset :32bd
+Time stamp :  2023-08-03 16:29:55.598760 356 356
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 39 / Offset :3431
+Time stamp :  2023-08-03 16:29:55.598760 136 136
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 40 / Offset :34c9
+Time stamp :  2023-08-03 16:29:55.603657 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 41 / Offset :351e
+Time stamp :  2023-08-03 16:29:55.619435 134 134
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 42 / Offset :35b4
+Time stamp :  2023-08-03 16:29:55.623644 356 356
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 43 / Offset :3728
+Time stamp :  2023-08-03 16:29:55.638391 855 855
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 44 / Offset :3a8f
+Time stamp :  2023-08-03 16:29:55.638392 855 855
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 45 / Offset :3df6
+Time stamp :  2023-08-03 16:29:55.638392 855 855
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 46 / Offset :415d
+Time stamp :  2023-08-03 16:29:55.638392 854 854
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 47 / Offset :44c3
+Time stamp :  2023-08-03 16:29:55.638981 104 104
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 48 / Offset :453b
+Time stamp :  2023-08-03 16:29:55.640104 134 134
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 49 / Offset :45d1
+Time stamp :  2023-08-03 16:29:55.654732 907 907
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 50 / Offset :496c
+Time stamp :  2023-08-03 16:29:55.654732 907 907
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 51 / Offset :4d07
+Time stamp :  2023-08-03 16:29:55.654732 907 907
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 52 / Offset :50a2
+Time stamp :  2023-08-03 16:29:55.655325 104 104
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 53 / Offset :511a
+Time stamp :  2023-08-03 16:29:55.656016 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 54 / Offset :516f
+Time stamp :  2023-08-03 16:29:55.656658 348 348
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 55 / Offset :52db
+Time stamp :  2023-08-03 16:29:55.656676 134 134
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 56 / Offset :5371
+Time stamp :  2023-08-03 16:29:55.670933 907 907
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 57 / Offset :570c
+Time stamp :  2023-08-03 16:29:55.670934 906 906
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 58 / Offset :5aa6
+Time stamp :  2023-08-03 16:29:55.670934 906 906
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 59 / Offset :5e40
+Time stamp :  2023-08-03 16:29:55.671217 104 104
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 60 / Offset :5eb8
+Time stamp :  2023-08-03 16:29:55.687364 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 61 / Offset :5f0d
+Time stamp :  2023-08-03 16:29:55.690943 906 906
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 62 / Offset :62a7
+Time stamp :  2023-08-03 16:29:55.690943 906 906
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 63 / Offset :6641
+Time stamp :  2023-08-03 16:29:55.690943 906 906
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 64 / Offset :69db
+Time stamp :  2023-08-03 16:29:55.691133 104 104
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 65 / Offset :6a53
+Time stamp :  2023-08-03 16:29:55.698047 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 66 / Offset :6aa8
+Time stamp :  2023-08-03 16:29:55.721085 348 348
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 67 / Offset :6c14
+Time stamp :  2023-08-03 16:29:55.721085 906 906
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 68 / Offset :6fae
+Time stamp :  2023-08-03 16:29:55.721085 906 906
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 69 / Offset :7348
+Time stamp :  2023-08-03 16:29:55.721085 905 905
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 70 / Offset :76e1
+Time stamp :  2023-08-03 16:29:55.721556 104 104
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 71 / Offset :7759
+Time stamp :  2023-08-03 16:29:55.737972 348 348
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 72 / Offset :78c5
+Time stamp :  2023-08-03 16:29:55.737972 908 908
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 73 / Offset :7c61
+Time stamp :  2023-08-03 16:29:55.737972 907 907
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 74 / Offset :7ffc
+Time stamp :  2023-08-03 16:29:55.737992 907 907
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 75 / Offset :8397
+Time stamp :  2023-08-03 16:29:55.738396 104 104
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 76 / Offset :840f
+Time stamp :  2023-08-03 16:29:55.739441 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 77 / Offset :8464
+Time stamp :  2023-08-03 16:29:55.754276 908 908
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 78 / Offset :8800
+Time stamp :  2023-08-03 16:29:55.754277 907 907
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 79 / Offset :8b9b
+Time stamp :  2023-08-03 16:29:55.754277 907 907
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 80 / Offset :8f36
+Time stamp :  2023-08-03 16:29:55.754668 104 104
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 81 / Offset :8fae
+Time stamp :  2023-08-03 16:29:55.760327 134 134
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 82 / Offset :9044
+Time stamp :  2023-08-03 16:29:55.760924 181 181
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 83 / Offset :9109
+Time stamp :  2023-08-03 16:29:55.771742 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 84 / Offset :915e
+Time stamp :  2023-08-03 16:29:55.771742 916 916
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 85 / Offset :9502
+Time stamp :  2023-08-03 16:29:55.771743 915 915
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 86 / Offset :98a5
+Time stamp :  2023-08-03 16:29:55.771743 915 915
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 87 / Offset :9c48
+Time stamp :  2023-08-03 16:29:55.772536 112 112
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 88 / Offset :9cc8
+Time stamp :  2023-08-03 16:29:55.781530 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 89 / Offset :9d1d
+Time stamp :  2023-08-03 16:29:55.790967 356 356
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 90 / Offset :9e91
+Time stamp :  2023-08-03 16:29:55.790968 917 917
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 91 / Offset :a236
+Time stamp :  2023-08-03 16:29:55.790968 917 917
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 92 / Offset :a5db
+Time stamp :  2023-08-03 16:29:55.790968 917 917
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 93 / Offset :a980
+Time stamp :  2023-08-03 16:29:55.790968 112 112
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 94 / Offset :aa00
+Time stamp :  2023-08-03 16:29:55.804398 909 909
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 95 / Offset :ad9d
+Time stamp :  2023-08-03 16:29:55.804399 909 909
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 96 / Offset :b13a
+Time stamp :  2023-08-03 16:29:55.804399 909 909
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 97 / Offset :b4d7
+Time stamp :  2023-08-03 16:29:55.804726 104 104
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 98 / Offset :b54f
+Time stamp :  2023-08-03 16:29:55.812548 69 69
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+-----------------------------------
+Packet Index: 99 / Offset :b5a4
+Time stamp :  2023-08-03 16:29:55.823206 126 126
+Source mac: 58869449e034 Destination Mac: 7c57584f48ff
+Source IP: 170.114.190.50 Dstination IP: 192.168.0.186 TTL: 47
+170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 192.168.0.186 None 47
+ack
+push
+Source Port :  443 Dstination Port: 64420
+Seq_number: 101329623 Ack_number: 58601340
+flags: 011000
+-----------------------------------
+
+
+-----------------------------------
+Packet Index: 100 / Offset :b632
+Time stamp :  2023-08-03 16:29:55.824226 909 909
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 101 / Offset :b9cf
+Time stamp :  2023-08-03 16:29:55.824226 909 909
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 102 / Offset :bd6c
+Time stamp :  2023-08-03 16:29:55.824238 909 909
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 103 / Offset :c109
+Time stamp :  2023-08-03 16:29:55.826821 413 413
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 104 / Offset :c2b6
+Time stamp :  2023-08-03 16:29:55.826821 104 104
+Source mac: 7c57584f48ff Destination Mac: 58869449e034
+Source IP: 192.168.0.186 Dstination IP: 170.114.190.50 TTL: 128
+192.168.0.186 None 170.114.190.50 {'dma_code': 0, 'area_code': 0, 'metro_code': None, 'postal_code': None, 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': '00', 'city': None, 'latitude': 37.751000000000005, 'longitude': -97.822, 'time_zone': None} 128
+-----------------------------------
+Packet Index: 105 / Offset :c32e
+Time stamp :  2023-08-03 16:29:55.833645 60 60
+Source mac: 7c57584f48ff Destination Mac: c89402fadc83
+Source IP: 192.168.0.186 Dstination IP: 192.168.0.162 TTL: 128
+192.168.0.186 None 192.168.0.162 None 128
+ack
+Source Port :  60909 Dstination Port: 80
+Seq_number: 1248157028 Ack_number: 2418601668
+flags: 010000
+-----------------------------------
