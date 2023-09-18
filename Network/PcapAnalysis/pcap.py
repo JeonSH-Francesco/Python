@@ -138,7 +138,7 @@ class TCP:
         #         fd.write(tcp_payload.decode("utf-8"))
         #         fd.close()
         
-        
+#"2.pcap" is my pcap file name. So, You should adjust your pcap_file_name.
 fd = open("2.pcap", "rb")
 data = fd.read()
 fd.close()
