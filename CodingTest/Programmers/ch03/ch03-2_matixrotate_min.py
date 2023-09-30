@@ -47,7 +47,8 @@ for idx, (rows, columns, queries) in enumerate(testcases):
 
 
 '''
-
+Level2
+출력 결과 : 
 Test 1 결과: [8, 10, 25]
 Test 2 결과: [1, 1, 5, 3]
 Test 3 결과: [1]
