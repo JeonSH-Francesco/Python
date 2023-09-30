@@ -10,7 +10,14 @@ def solution(s, n):
         result.append(char)
     return ''.join(result)
 
-# 테스트 케이스
-print(solution("AB", 1))  # "BC"
-print(solution("z", 1))   # "a"
-print(solution("a B z", 4))  # "e F d"
+print(solution("AB", 1))
+print(solution("z", 1))
+print(solution("a B z", 4))
+
+'''
+출력 결과 :
+BC
+a
+e F d
+
+'''
