@@ -13,7 +13,7 @@ def printTimeTable(time):
         print("%d x %d = %d"%(time,i,time*i))
     print("2 end\n")   
 
-data=[random.randrange(1,10) for i in range(5)] # X개의 무작위 숫자 생성
+data=[random.randrange(1,10) for i in range(1000)] # X개의 무작위 숫자 생성
 startTime=time.time()
 
 #n단 구구단 출력
