@@ -79,3 +79,5 @@ while True:
 #https://sites.google.com/chromium.org/driver/downloads
 #https://googlechromelabs.github.io/chrome-for-testing/
 #pip install schedule,~ ~ ~ 
+#And then, edit your System environment path(this path is Your chromedriver path) and reboot
+#Good Luck
