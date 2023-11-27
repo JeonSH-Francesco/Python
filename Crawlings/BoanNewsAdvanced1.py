@@ -68,9 +68,14 @@ def scrape_and_save_news():
     print(f"Text file generated successfully at {txt_filename}")
     sys.exit()  # 스크립트 종료
 
-# Schedule the scraping and saving job to run every day at 10:00 AM
-schedule.every().day.at("19:00").do(scrape_and_save_news)
+# Schedule the scraping and saving job to run every day at hh:mm
+schedule.every().day.at("hh:mm").do(scrape_and_save_news)
 
 while True:
     schedule.run_pending()
     time.sleep(1)
+
+#You need to download chromdriver latest.version
+#https://sites.google.com/chromium.org/driver/downloads
+#https://googlechromelabs.github.io/chrome-for-testing/
+#pip install schedule,~ ~ ~ 
