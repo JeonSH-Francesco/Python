@@ -3,7 +3,7 @@ from datetime import datetime
 import pygeoip
 mac_dict = {}
 
-gi=pygeoip.GeoIP('GeoIPCity.dat')
+gi=pygeoip.GeoIP('GeoIP.dat')
 
 class PacketHeader:    
     def __init__(self, data):
