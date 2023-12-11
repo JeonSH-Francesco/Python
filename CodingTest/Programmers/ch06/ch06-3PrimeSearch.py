@@ -1,39 +1,52 @@
-from itertools import permutations
+from itertools import product
 
-def checkPrime(n):
-    # 소수인지 확인하는 함수
-    if n < 2: 
-        return False
-    for i in range(2, int(n ** 0.5) + 1):
-        if n % i == 0: 
-            return False
+def solution(word):
+    # 'A', 'E', 'I', 'O', 'U'로 만들 수 있는 모든 조합을 생성합니다.
+    data = [''.join(p) for i in range(1, 6) for p in product(['A', 'E', 'I', 'O', 'U'], repeat=i)]
     
-    return True
-
-def solution(numbers):
-    answer = []
-    numbers = list(numbers)
+    # 생성된 조합을 사전 순으로 정렬합니다.
+    data.sort()
     
-    # 가능한 모든 순열 생성
-    num = []
-    for i in range(1, len(numbers) + 1):
-        num.append(list(permutations(numbers, i)))  
-
-    # 순열을 정수로 변환하여 리스트에 추가
-    num = [int(''.join(y)) for x in num for y in x]
+    try:
+        # 주어진 단어가 정렬된 조합 리스트에서 어디에 위치하는지 찾아 반환합니다.
+        answer = data.index(word) + 1
+    except ValueError:
+        # 단어가 리스트에 없는 경우 -1을 반환합니다.
+        answer = -1
     
-    # 소수 여부 확인 후 소수인 경우 리스트에 추가
-    for i in num:
-        if checkPrime(i):
-            answer.append(i)
+    return answer
+
+
+# 테스트 케이스 출력
+print(solution("AAAAE"))  # 6
+print(solution("AAAE"))   # 10
+print(solution("I"))      # 1563
+print(solution("EIO"))    # 1189
+
+def find(data, p, step):
+    #재귀 호출을 6단계까지 수행한 경우 함수를 종료합니다.
+    if step == 6: return
+    #현재까지 만들어진 문자열을 리스트에 추가합니다.
+    if p != '': data.append(p)
+    #모음들에 대하여 재귀 호출을 수행합니다.
+    #p는 이전까지 생성된 문자열이며 c는 현재 루프에서 선택된 문자를 결합하여 새로운 문자열 생성
+    for c in ['A', 'E', 'I', 'O', 'U']:
+        find(data, ''.join([p, c]), step + 1)
+        
+def solution(word):
+    answer = 0
+    data = []
+    #재귀 호출을 통해 모든 가능한 문자열을 생성합니다.
+    find(data, '', 0)
+    #주어진 단어가 몇 번째 인덱스에 해당하는지 찾습니다.
+    for i in range(len(data)):
+        if data[i] == word:
+            answer = i + 1
+            break
     
-    # 중복된 소수를 제거하고 개수 반환
-    return len(set(answer))
+    return answer
 
-# 테스트
-result1 = solution("17")
-result2 = solution("011")
-
-# 결과 출력
-print(f"Result for '17': {result1}")
-print(f"Result for '011': {result2}")
+print(solution("AAAAE"))
+print(solution("AAAE"))
+print(solution("I"))
+print(solution("EIO"))
