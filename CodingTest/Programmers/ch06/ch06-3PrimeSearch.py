@@ -17,7 +17,6 @@ def solution(word):
     return answer
 
 
-# 테스트 케이스 출력
 print(solution("AAAAE"))  # 6
 print(solution("AAAE"))   # 10
 print(solution("I"))      # 1563
@@ -46,7 +45,7 @@ def solution(word):
     
     return answer
 
-print(solution("AAAAE"))
-print(solution("AAAE"))
-print(solution("I"))
-print(solution("EIO"))
+print(solution("AAAAE"))  # 6
+print(solution("AAAE"))   # 10
+print(solution("I"))      # 1563
+print(solution("EIO"))    # 1189
