@@ -3,7 +3,7 @@ from datetime import datetime
 import pygeoip
 mac_dict = {}
 
-gi=pygeoip.GeoIP('GeoIP.dat')
+gi=pygeoip.GeoIP('GeoLiteCity.dat')
 
 class PacketHeader:    
     def __init__(self, data):
@@ -111,7 +111,7 @@ class TCP:
         if self.flags[5] == "1":
             print("fin")
         
-        print("Source Port : ",self.sport,"Dstination Port:",self.dport)
+        print("Source Port : ",self.sport,"Destination Port:",self.dport)
         print("Seq_number:",self.seq_number, "Ack_number:",self.ack_number)
         print("flags:",self.flags)
         print("-----------------------------------")
@@ -158,7 +158,3 @@ while True:
     Ethernet(packet_data)
     if offset >= len(data):
         break
-        
-    
-
-
