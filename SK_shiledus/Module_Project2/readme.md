@@ -1,3 +1,9 @@
+# Blind sql injection
+blind sql injection 공격은 쿼리의 결과를 참과 거짓으로만 출력하는 페이지에서 사용되는 공격으로, 출력 내용이 참과 거짓밖에 없어서 이를 이용해 데이터베이스의 내용을 추측하여 쿼리를 조종하는 공격
+
+# 공격에 사용되는 함수
+Substr, ord, chr, ascii
+
 # 보고서 작성
 ![image](https://github.com/JeonSH-Francesco/Python/assets/112309895/95d56999-d1a2-41e7-9b03-9cdc424372cd)
 
