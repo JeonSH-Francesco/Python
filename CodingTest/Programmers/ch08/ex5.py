@@ -57,3 +57,117 @@ def solution(distance, rocks, n):
     return answer
 
 print(solution(25, [2, 14, 11, 21, 17], 2))  # 출력: 4
+
+'''
+예제:
+distance: 25
+rocks: [2, 14, 11, 21, 17]
+n: 2
+초기화 및 정렬:
+answer = 0
+start = 0
+end = 25
+rocks.sort() -> rocks = [2, 11, 14, 17, 21]
+이진 탐색 단계별로 살펴보기:
+첫 번째 이진 탐색:
+중간값 계산:
+
+mid = (start + end) // 2 = (0 + 25) // 2 = 12
+바위 제거 검사:
+
+초기 상태: del_stones = 0, pre_stone = 0
+바위 2: 2 - 0 = 2 < 12 -> del_stones = 1 (제거)
+바위 11: 11 - 0 = 11 < 12 -> del_stones = 2 (제거)
+바위 14: 14 - 0 = 14 >= 12 -> pre_stone = 14
+바위 17: 17 - 14 = 3 < 12 -> del_stones = 3 (제거)
+바위 21: 21 - 14 = 7 < 12 -> del_stones = 4 (제거)
+바위 제거 수가 2를 초과하므로 del_stones > n.
+
+범위 조정:
+
+end = mid - 1 = 12 - 1 = 11
+두 번째 이진 탐색:
+중간값 계산:
+
+mid = (start + end) // 2 = (0 + 11) // 2 = 5
+바위 제거 검사:
+
+초기 상태: del_stones = 0, pre_stone = 0
+바위 2: 2 - 0 = 2 < 5 -> del_stones = 1 (제거)
+바위 11: 11 - 0 = 11 >= 5 -> pre_stone = 11
+바위 14: 14 - 11 = 3 < 5 -> del_stones = 2 (제거)
+바위 17: 17 - 11 = 6 >= 5 -> pre_stone = 17
+바위 21: 21 - 17 = 4 < 5 -> del_stones = 3 (제거)
+바위 제거 수가 2를 초과하므로 del_stones > n.
+
+범위 조정:
+
+end = mid - 1 = 5 - 1 = 4
+
+세 번째 이진 탐색:
+중간값 계산:
+
+mid = (start + end) // 2 = (0 + 4) // 2 = 2
+바위 제거 검사:
+
+초기 상태: del_stones = 0, pre_stone = 0
+바위 2: 2 - 0 = 2 >= 2 -> pre_stone = 2
+바위 11: 11 - 2 = 9 >= 2 -> pre_stone = 11
+바위 14: 14 - 11 = 3 >= 2 -> pre_stone = 14
+바위 17: 17 - 14 = 3 >= 2 -> pre_stone = 17
+바위 21: 21 - 17 = 4 >= 2 -> pre_stone = 21
+바위 제거 수가 2 이하이므로 del_stones <= n.
+
+범위 조정:
+
+answer = mid = 2
+start = mid + 1 = 2 + 1 = 3
+
+네 번째 이진 탐색:
+중간값 계산:
+
+mid = (start + end) // 2 = (3 + 4) // 2 = 3
+바위 제거 검사:
+
+초기 상태: del_stones = 0, pre_stone = 0
+바위 2: 2 - 0 = 2 < 3 -> del_stones = 1 (제거)
+바위 11: 11 - 0 = 11 >= 3 -> pre_stone = 11
+바위 14: 14 - 11 = 3 >= 3 -> pre_stone = 14
+바위 17: 17 - 14 = 3 >= 3 -> pre_stone = 17
+바위 21: 21 - 17 = 4 >= 3 -> pre_stone = 21
+바위 제거 수가 2 이하이므로 del_stones <= n.
+
+범위 조정:
+
+answer = mid = 3
+start = mid + 1 = 3 + 1 = 4
+
+다섯 번째 이진 탐색:
+중간값 계산:
+
+mid = (start + end) // 2 = (4 + 4) // 2 = 4
+바위 제거 검사:
+
+초기 상태: del_stones = 0, pre_stone = 0
+바위 2: 2 - 0 = 2 < 4 -> del_stones = 1 (제거)
+바위 11: 11 - 0 = 11 >= 4 -> pre_stone = 11
+바위 14: 14 - 11 = 3 < 4 -> del_stones = 2 (제거)
+바위 17: 17 - 11 = 6 >= 4 -> pre_stone = 17
+바위 21: 21 - 17 = 4 >= 4 -> pre_stone = 21
+바위 제거 수가 2 이하이므로 del_stones <= n.
+
+범위 조정:
+
+answer = mid = 4
+start = mid + 1 = 4 + 1 = 5
+종료 조건:
+start > end가 되어 이진 탐색이 종료됩니다.
+
+최종 결과:
+answer = 4
+따라서, 주어진 예제에서 최솟값들 중에 최댓값은 4가 됩니다.
+
+
+
+
+'''
