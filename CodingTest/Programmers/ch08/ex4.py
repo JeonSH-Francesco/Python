@@ -18,34 +18,41 @@ query 각 문자열은 "[조건]X" 형식입니다.
 를 의미합니다.
 '''
 def solution(info, query):
+    # info 리스트의 각 문자열을 공백으로 나누어 2차원 리스트로 변환
     data = [i.split() for i in info]
+    
+    # query 조건들을 저장할 리스트 초기화
     queries = []
 
+    # 각 쿼리에 대해 조건을 처리
     for q in query:
+        # 쿼리를 공백으로 나누어 리스트로 변환
         q = q.split()
+        
+        # 쿼리에서 'and'를 제거
         for _ in range(3):
             q.remove('and')
+        
+        # 쿼리 리스트를 queries 리스트에 추가
         queries.append(q)
 
+    # 각 쿼리에 대한 결과를 저장할 리스트 초기화
     answer = [0] * len(query)
 
+    # 쿼리와 지원자 정보를 비교
     for i in range(len(queries)):
         q = queries[i]
-        for applicant in data:
-            match = True
-            for j in range(5):
-                if q[j] == '-':
-                    continue
-                elif j == 4:  # score condition
-                    if int(applicant[j]) < int(q[j]):
-                        match = False
-                        break
-                elif applicant[j] != q[j]:
-                    match = False
-                    break
-            if match:
-                answer[i] += 1
 
+        #각 지원자 정보를 확인
+        for info in data:
+            #지원자 정보의 각 항목을 쿼리 조건과 비교
+            for j in range(5):
+                if q[j] == '-': continue
+                #쿼리에서 '-'는 모든 값을 허용하므로 넘어감
+                elif j ==4 and int(info[j]) >= int(q[j]):answer[i]+=1
+                # 점수 조건일 경우, 지원자의 점수가 쿼리 조건의 점수 이상인지 확인
+                elif info[j]!=q[j] : break
+                # 항목이 다를 경우 일치하지 않으므로 비교 중지
     return answer
 
 # Example usage with the provided data
