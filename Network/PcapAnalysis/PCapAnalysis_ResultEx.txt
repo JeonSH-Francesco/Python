@@ -608,5 +608,79 @@ GeoIP SRC: None | GeoIP DST: {'dma_code': 532, 'area_code': 518, 'metro_code': '
 -----------------------------------
 .
 .
+-----------------------------------
+Packet Index: 145450 / Offset: 0x4305b
+Time stamp: 2023-08-03 16:29:57.809049 | incl_len: 69 | orig_len: 69
+Source MAC: 58869449e034 | Destination MAC: 7c57584f48ff
+Source IP: 170.114.190.50 | Destination IP: 192.168.0.186 | TTL: 47
+GeoIP SRC: {'dma_code': 532, 'area_code': 518, 'metro_code': 'Albany-Schenectady-Troy, NY', 'postal_code': '12110', 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': 'NY', 'city': 'Latham', 'latitude': 42.7526, 'longitude': -73.7804, 'time_zone': 'America/New_York'} | GeoIP DST: None
+-----------------------------------
+Packet Index: 145451 / Offset: 0x430b0
+Time stamp: 2023-08-03 16:29:57.820460 | incl_len: 348 | orig_len: 348
+Source MAC: 7c57584f48ff | Destination MAC: 58869449e034
+Source IP: 192.168.0.186 | Destination IP: 170.114.190.50 | TTL: 128
+GeoIP SRC: None | GeoIP DST: {'dma_code': 532, 'area_code': 518, 'metro_code': 'Albany-Schenectady-Troy, NY', 'postal_code': '12110', 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': 'NY', 'city': 'Latham', 'latitude': 42.7526, 'longitude': -73.7804, 'time_zone': 'America/New_York'}
+-----------------------------------
+Packet Index: 145452 / Offset: 0x4321c
+Time stamp: 2023-08-03 16:29:57.820460 | incl_len: 291 | orig_len: 291
+Source MAC: 7c57584f48ff | Destination MAC: 58869449e034
+Source IP: 192.168.0.186 | Destination IP: 170.114.190.50 | TTL: 128
+GeoIP SRC: None | GeoIP DST: {'dma_code': 532, 'area_code': 518, 'metro_code': 'Albany-Schenectady-Troy, NY', 'postal_code': '12110', 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': 'NY', 'city': 'Latham', 'latitude': 42.7526, 'longitude': -73.7804, 'time_zone': 'America/New_York'}
+-----------------------------------
+Packet Index: 145453 / Offset: 0x4334f
+Time stamp: 2023-08-03 16:29:57.843014 | incl_len: 291 | orig_len: 291
+Source MAC: 7c57584f48ff | Destination MAC: 58869449e034
+Source IP: 192.168.0.186 | Destination IP: 170.114.190.50 | TTL: 128
+GeoIP SRC: None | GeoIP DST: {'dma_code': 532, 'area_code': 518, 'metro_code': 'Albany-Schenectady-Troy, NY', 'postal_code': '12110', 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': 'NY', 'city': 'Latham', 'latitude': 42.7526, 'longitude': -73.7804, 'time_zone': 'America/New_York'}
+-----------------------------------
+Packet Index: 145454 / Offset: 0x43482
+Time stamp: 2023-08-03 16:29:57.860673 | incl_len: 69 | orig_len: 69
+Source MAC: 58869449e034 | Destination MAC: 7c57584f48ff
+Source IP: 170.114.190.50 | Destination IP: 192.168.0.186 | TTL: 47
+GeoIP SRC: {'dma_code': 532, 'area_code': 518, 'metro_code': 'Albany-Schenectady-Troy, NY', 'postal_code': '12110', 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': 'NY', 'city': 'Latham', 'latitude': 42.7526, 'longitude': -73.7804, 'time_zone': 'America/New_York'} | GeoIP DST: None
+-----------------------------------
+Packet Index: 145455 / Offset: 0x434d7
+Time stamp: 2023-08-03 16:29:57.863034 | incl_len: 311 | orig_len: 311
+Source MAC: 7c57584f48ff | Destination MAC: 58869449e034
+Source IP: 192.168.0.186 | Destination IP: 170.114.190.50 | TTL: 128
+GeoIP SRC: None | GeoIP DST: {'dma_code': 532, 'area_code': 518, 'metro_code': 'Albany-Schenectady-Troy, NY', 'postal_code': '12110', 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': 'NY', 'city': 'Latham', 'latitude': 42.7526, 'longitude': -73.7804, 'time_zone': 'America/New_York'}
+-----------------------------------
+Packet Index: 145456 / Offset: 0x4361e
+Time stamp: 2023-08-03 16:29:57.882189 | incl_len: 348 | orig_len: 348
+Source MAC: 7c57584f48ff | Destination MAC: 58869449e034
+Source IP: 192.168.0.186 | Destination IP: 170.114.190.50 | TTL: 128
+GeoIP SRC: None | GeoIP DST: {'dma_code': 532, 'area_code': 518, 'metro_code': 'Albany-Schenectady-Troy, NY', 'postal_code': '12110', 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': 'NY', 'city': 'Latham', 'latitude': 42.7526, 'longitude': -73.7804, 'time_zone': 'America/New_York'}
+-----------------------------------
+Packet Index: 145457 / Offset: 0x4378a
+Time stamp: 2023-08-03 16:29:57.882190 | incl_len: 310 | orig_len: 310
+Source MAC: 7c57584f48ff | Destination MAC: 58869449e034
+Source IP: 192.168.0.186 | Destination IP: 170.114.190.50 | TTL: 128
+GeoIP SRC: None | GeoIP DST: {'dma_code': 532, 'area_code': 518, 'metro_code': 'Albany-Schenectady-Troy, NY', 'postal_code': '12110', 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': 'NY', 'city': 'Latham', 'latitude': 42.7526, 'longitude': -73.7804, 'time_zone': 'America/New_York'}
+-----------------------------------
+Packet Index: 145458 / Offset: 0x438d0
+Time stamp: 2023-08-03 16:29:57.900730 | incl_len: 310 | orig_len: 310
+Source MAC: 7c57584f48ff | Destination MAC: 58869449e034
+Source IP: 192.168.0.186 | Destination IP: 170.114.190.50 | TTL: 128
+GeoIP SRC: None | GeoIP DST: {'dma_code': 532, 'area_code': 518, 'metro_code': 'Albany-Schenectady-Troy, NY', 'postal_code': '12110', 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': 'NY', 'city': 'Latham', 'latitude': 42.7526, 'longitude': -73.7804, 'time_zone': 'America/New_York'}
+-----------------------------------
+Packet Index: 145459 / Offset: 0x43a16
+Time stamp: 2023-08-03 16:29:57.905404 | incl_len: 348 | orig_len: 348
+Source MAC: 7c57584f48ff | Destination MAC: 58869449e034
+Source IP: 192.168.0.186 | Destination IP: 170.114.190.50 | TTL: 128
+GeoIP SRC: None | GeoIP DST: {'dma_code': 532, 'area_code': 518, 'metro_code': 'Albany-Schenectady-Troy, NY', 'postal_code': '12110', 'country_code': 'US', 'country_code3': 'USA', 'country_name': 'United States', 'continent': 'NA', 'region_code': 'NY', 'city': 'Latham', 'latitude': 42.7526, 'longitude': -73.7804, 'time_zone': 'America/New_York'}
+
+========== TCP Follow Stream ==========
+
+d]eJd]eK
+  ← Backward (192.168.0.186:60909 → 192.168.0.162:80):
+��(�P��
+---------------------------------------
+
+[Stream 2] 170.114.52.6:443 ↔ 192.168.0.186:60192
+  → Forward (170.114.52.6:443 → 192.168.0.186:60192):
+��E�
+  ← Backward (192.168.0.186:60192 → 170.114.52.6:443):
+x}�;P�
+---------------------------------------
 .
 
