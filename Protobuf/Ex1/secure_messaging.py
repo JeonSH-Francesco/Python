@@ -220,5 +220,5 @@ grpc_tools.protocgRPC 패키지(grpcio-tools)에 포함된 Protocol Buffer 컴�
 --python_out=.컴파일 결과로 생성되는 파이썬 데이터 구조 클래스 파일(*_pb2.py)을 
 현재 디렉토리(.)에 출력합니다.~~~.proto컴파일할 대상 프로토콜 버퍼 정의 파일 이름입니다.
 
-python -m grpc_tools.protoc -I. --python_out=. secure_envelope.proto
+python -m grpc_tools.protoc -I. --python_out=. secure_envelope.proto 수행할 것!
 '''
