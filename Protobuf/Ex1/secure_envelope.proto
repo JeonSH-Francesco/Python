@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package secure;
+
+// 실제 전송되는 최종 데이터 단위
+// - 평문(plaintext)은 절대 담기지 않고, 암호화된 결과만 직렬화 대상이 됨
+message SecureEnvelope {
+  string sender_id = 1;        // 발신자 식별자
+  bytes ciphertext = 2;        // AES-GCM으로 암호화된 실제 데이터
+  bytes nonce = 3;             // AES-GCM nonce (매 메시지마다 랜덤 생성, 재사용 금지)
+  bytes auth_tag = 4;          // AES-GCM 인증 태그 (변조 감지)
+  bytes signature = 5;         // Ed25519 전자서명 (발신자 인증 + 무결성)
+  int64 timestamp = 6;         // 유닉스 타임스탬프 (재전송 공격 방지용)
+  string nonce_id = 7;         // 메시지 고유 ID (재전송 공격 방지용, UUID)
+}
+
+// 키 교환 시 상대방에게 전달하는 공개키 번들
+message PublicKeyBundle {
+  string owner_id = 1;
+  bytes signing_public_key = 2;     // Ed25519 공개키 (서명 검증용)
+  bytes exchange_public_key = 3;    // X25519 공개키 (키 교환용)
+}
+
